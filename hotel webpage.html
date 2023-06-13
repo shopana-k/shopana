@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/DELL/Desktop/html-projects/webpagee.html# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+<title>travel website</title>
+    <meta name="viewport" content="width-device=width" initial="" scale="1">
+    <link rel="stylesheet" href="./hotel webpage_files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./hotel webpage_files/all.min.css">
+<style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #wrap{
+    width:100%;
+}
+.head{
+    width: 100%;
+    height: 110px;
+    background-color: lightblue;
+}
+.head .logo img{
+    width: 15%;
+    height: 110px;
+    margin-left: 20px;
+    margin-top: -14px;
+    padding-top: 30px;
+}
+.callsearch {
+  margin-left: 672px;
+  margin-top: -127px;
+  margin-top: -67px;
+}
+.callsearch i {
+  font-size: 45px; 
+  color:rgb(9, 9, 32);     
+}
+.callsearch i:hover{
+  color:rgb(31, 28, 28);
+}
+.callsearch h3{
+  padding-left: 6px;
+  display: inline-block;
+  padding-top: -60px;
+  color:rgb(26, 35, 44);
+}
+.callsearch h3:hover{
+  color:rgb(96, 85, 85);
+}
+.search{
+  float:right;
+  margin-right: 60px;
+  display: block;
+  margin-top: -45px;
+}
+.search button{
+  padding:7px;
+}
+.search .text {
+  padding: 7px;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  line-height: 30px;
+  text-align: center;
+  list-style-type: none; 
+  background-color: #202040;
+}
+.navbar ul{
+  list-style-type:none;
+}
+.navbar ul li{
+  display: inline-block;
+  position: relative;
+}
+.navbar ul li a{
+  display: block;
+  color:white;
+  text-decoration: none;
+  padding:20px 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul li .menu1 li{
+  display: block;
+}
+ul li .menu1{
+  width:300px;
+  background-color: lightblue;
+  position: absolute;
+  display: none;
+}
+ul li a:hover{
+  color:black;
+  background-color: whitesmoke;
+}
+ul li:hover .menu1{
+  display: block;
+  color:antiquewhite;
+  background-color: rgb(17, 82, 104);
+}
+ul li .menu2 li{
+  display: block;
+}
+ul li .menu2{
+  width:300px;
+  background-color:grey;
+  position: absolute;
+  display: none;
+}
+ a:hover{
+  color:black;
+  background-color:darkgrey;
+}
+ul li:hover .menu2{
+  display: block;
+  color:antiquewhite;
+   background-color: rgb(17, 82, 104);
+}
+ul li .menu3 li{
+  display: block;
+}
+ul li .menu3{
+  width:300px;
+  background-color:grey;
+  position: absolute;
+  display: none;
+}
+ a:hover{
+  color:black;
+  background-color:darkgrey;
+}
+ul li:hover .menu3{
+  display: block;
+  color:antiquewhite;
+  background-color: rgb(17, 82, 104);
+}
+ul li .menu4 li{
+  display: block;
+}
+ul li .menu4{
+  width:300px;
+  background-color:grey;
+  position: absolute;
+  display: none;
+}
+ a:hover{
+  color:rgba(0, 0, 0, 0.159);
+  background-color:darkgrey;
+}
+ul li:hover .menu4{
+  display: block;
+  color:antiquewhite;
+  background-color: rgb(17, 82, 104);;
+}
+.navbar li button{
+  border:none;
+  padding:8px;
+  margin-top:8px;
+  margin-left: 60px;
+  border-radius:30px;
+  font-weight: bold;
+  background-color: bisque;
+}
+.navbar li button:hover{
+  background-color: lightseagreen;
+  color:rgb(236, 236, 245);
+}
+.img img{
+  width:100%;
+  height:900px;
+  background-image: cover;
+}
+.para{
+  width:31%;
+  margin-left: 662px;
+  margin-top: -401px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(7 7 38);
+  color: rgb(255 255 255);
+  position:absolute;
+} 
+.para h2{
+  padding-bottom: 10px;
+}
+.rs{
+  width:16%;
+  background-color: rgb(15 29 30 / 70%);
+  color:white;
+  margin-left: 662px;
+  margin-top: -265px;
+  position:absolute;
+}
+.rs p{
+  padding-left: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form{
+    width: 76%;
+    height: 90px;
+    margin-left: 184px;
+    margin-top: -94px;
+    background-color: rgb(11 6 40 / 94%);
+    color: #f0eeee;
+    position: absolute;
+}
+.about{
+  width:100%;
+  height:1000px;
+  margin-top: -4px;
+  display: inline-block;
+  background-color: #e9decf;
+}
+.about p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.row{
+  padding-top:30px;
+}
+.row .col1-4 img{
+    width:25%;
+    height: 300px;
+    margin-left: 90px;
+    float:left;
+}
+.row .col2-4 img{
+    width:25%;
+    height: 300px;
+    margin-left: 105px; 
+    float:center;
+}
+.row .col3-4 img{
+    width: 25%;
+    height: 300px;
+    margin-right: 84px;
+    margin-top: -303px;
+    float: right;
+}
+.row1 .col4-6 img{
+    width: 35%;
+    height: 300px;
+    margin-top: 39px;
+    margin-left: 158px;
+}
+.row1 .col5-6 img{
+  width: 35%;
+  height: 300px;
+  float: right;
+  margin-right: 133px;
+  margin-top: -305px;
+}
+.row1 p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -49px;
+    margin-left: 48px;
+}
+.row1 img{
+   width:30%;
+   height: 200px;
+}  
+
+.footer{
+  width:100%;
+  height:400px;
+  background-color: white;
+}
+.footer .row1{
+  color: black;
+  padding-top: 30px;
+  padding-left: 43px;
+  font-size: 26px;
+  line-height: 40px;
+}
+.footer .row1:hover{
+  color:grey;
+}
+.footer .row2{
+  margin-left: 406px;
+  margin-top: -206px;
+  color: black;
+  font-size: 26px;
+  line-height: 40px;
+}
+.footer .row2:hover{
+  color:grey;
+}
+.footer .row3{
+  margin-left: 728px;
+  margin-top: -126px;
+  color: black;
+  font-size: 26px;
+  line-height: 40px;
+}
+.footer .row3:hover{
+  color:grey;
+}
+.footer .row3 a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
+  border-radius: 50%;
+  color:  black;
+}
+.footer .row3 a:hover{
+        color: #24262b;
+        background-color:#ffffff;
+}
+.footer .row4 {
+  float: right;
+  margin-right: 106px;
+  font-size: 26px;
+  color: black;
+  margin-top: -75px;
+}
+.footer .row4:hover{
+  color:grey;
+}
+.footer .but{
+  float: right;
+}
+.footer .b1{
+  font-size: 25px;
+}
+.footer button{
+  font-size: 15px;
+  padding:8px;
+  margin-right:30px;
+  color:white;
+  background-color: rgb(8, 8, 77);
+}
+.footer button:hover{
+  color:black;
+  background-color:white;
+}
+</style>
+    </head><body>
+        <div id="wrap">
+            <div class="head">
+                <div class="logo">
+                    <img src="./hotel webpage_files/trip-removebg-preview (1).png" alt="image not found">
+                </div>
+                 <div class="callsearch">
+                    <i class="fa fa-phone"> </i>
+                    <h3>reach us 24/7<br>    
+                      <strong>+99 (33) 2523 7643</strong></h3>
+                 </div>
+                <div class="search">
+                 <input type="text" class="text" placeholder="Search entire website here">
+                 <button>   
+                 <i class="fa fa-search"></i>
+                  </button>
+                </div>
+            </div>
+        <div class="navbar">
+            <ul>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Hotels</a>
+              <ul class="menu1"> 
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Hotels in India</a></li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">International Hotels</a></li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">International Hostels</a></li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Popular Hotels in Europe</a></li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Activities</a></li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Hotel Deals of the Week</a></li>
+            </ul>
+              </li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Flights</a>
+                <ul class="menu2"> 
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">IndiGo</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Air India</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Air India Express</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Go First</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">SpiceJet</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">GoAir</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">TruJet</a></li>
+                  </ul>
+              </li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Vaccation</a>
+                <ul class="menu3"> 
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Hawali</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Maldives</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">New York City</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">kodaikanal</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Mussoorie</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Darjeeling</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Wayanad</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Mount Abu</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Shillong</a></li>
+                  </ul>
+              </li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Hot Deals</a></li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Travel Guides</a></li>
+              <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Blogs</a>
+                <ul class="menu4"> 
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Nomadic Matt</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">The Blonde Abroad</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">The Planet D</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">TravelFreak</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Nomadic Boys</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Trey Ratcliff</a></li>
+                  <li><a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#">Gogobot</a></li>
+                  </ul>
+              </li>
+              <li><button>SIGN UP</button></li>
+              <li><button>MY ACCOUNT</button></li>
+            </ul>
+          </div>
+        <div class="img">
+            <img src="./hotel webpage_files/travel.jpg" alt="image not found">
+               <div class="para">
+                <h2>Paris Hilton Hotel,Mumbai,India</h2>
+                <h4>Lorem ipsum dolar sit amet,consectelur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,Ut enim ad minim veniam.</h4>
+               </div> 
+               <div class="rs">
+                <p><b>99,084</b> Inclusive of food dinner</p>
+                  </div>
+                <div class="form"> 
+                  <form>
+                    <label>When?</label>      
+                    <input type="date">
+                    <label> phone number</label>         
+                    <input type="number" placeholder="enter your number">
+                  </form>
+                </div>
+        </div>
+        <div class="about">
+            <p>Poupular Hotels</p>
+              <div class="row">
+                  <div class="col1-4">
+                      <img src="./hotel webpage_files/hotel1.jpg">
+                  </div>
+                  <div class="col2-4">
+                    <img src="./hotel webpage_files/hotel2.jpg">
+                  </div>
+                  <div class="col3-4">
+                    <img src="./hotel webpage_files/hotel3.jpg">
+                  </div>
+              </div>
+              <p>Hot Deals</p>
+              <div class="row1">
+                  <div class="col4-6">
+                    <img src="./hotel webpage_files/hotdeal1.webp">
+                  </div>
+                  <div class="col5-6">
+                    <img src="./hotel webpage_files/hotdeal2.webp">
+                  </div>
+              </div>
+          </div>
+        <div class="footer">
+            <table class="row1">
+              <tbody><tr><th>Company</th></tr>
+              <tr><td>About the company</td></tr>
+              <tr><td>Terms and Conditions</td></tr>
+              <tr><td>Pricavy Policy</td></tr>
+              <tr><td>Career</td></tr>
+            </tbody></table>
+            <table class="row2">
+              <tbody><tr><th>Customer Support</th></tr>
+              <tr><td>Contact</td></tr>
+              <tr><td>FAQ</td></tr>
+            </tbody></table>
+            <table class="row3">
+              <tbody><tr><th>Follow us</th></tr>
+              <tr><td>
+                <a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#"><i class="fab fa-facebook-f"></i></a>
+                <a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#"><i class="fab fa-instagram"></i></a>
+                <a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="file:///C:/Users/DELL/Desktop/html-projects/webpagee.html#"><i class="fab fa-twitter"></i></a>
+              </td></tr>
+            </tbody></table>
+            <table class="row4">
+              <tbody><tr><th>Dont's miss our deals and offers</th></tr>
+            </tbody></table>
+            <div class="but">
+              <input type="email" class="b1" placeholder="Enter your email id">
+              <button>SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+    
+</body></html>
